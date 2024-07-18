@@ -1,5 +1,5 @@
 """
-some note for solving synamic programming problems.
+some note for solving dynamic programming problems.
 Start with a brute force solution and identify if there's any overlap.(the brute force solution is often a recursion)
 Then develop a memorization mechanism for the overlap.
 Use a complex enough example to outline the input/output of the brute force solution
