@@ -8,4 +8,4 @@ class Solution:
         max_profit = max(profits)
         if max_profit <= 0:
             return 0
-        return max(profits)
+        return max_profit
