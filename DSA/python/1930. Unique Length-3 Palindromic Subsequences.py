@@ -10,8 +10,10 @@ class Solution:
             for j in range(len(s)-1, i+1, -1):
                 if s[i] == s[j] and s[i] not in record_set:
                     count += len(set(s[i+1:j]))
-                    record_set.add(s[i])
                     break
+            record_set.add(s[i])
+            if len(record_set) == 26:
+                break
         return count
 
 
