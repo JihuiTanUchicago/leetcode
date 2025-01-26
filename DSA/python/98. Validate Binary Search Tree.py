@@ -15,5 +15,3 @@ class Solution:
                 return False
             return dfs(root.left, [range[0], min(root.val, range[1])]) and dfs(root.right, [max(root.val, range[0]), range[1]])
         return dfs(root, [float('-inf'), float('inf')])
-
-            
