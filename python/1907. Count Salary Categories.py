@@ -17,5 +17,6 @@ def count_salary_categories(accounts: pd.DataFrame) -> pd.DataFrame:
         'salary_level': 'category',
         'income': 'accounts_count'
     })
+    
     return p
 
