@@ -7,6 +7,7 @@ class Solution:
             dp[i] = dp[i-1] + dp[i-2]
         
         return dp[-1]
+
 # class Solution:
 #     def climbStairs(self, n: int) -> int:
 #         if n == 1:
